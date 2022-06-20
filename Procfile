@@ -1,1 +1,1 @@
-worker: npm i && node index.js
+worker: npm i && npm i pm2 -g && pm2 start index.js && pm2 logs
